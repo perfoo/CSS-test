@@ -38,8 +38,8 @@ p{
 }
 
 @keyframes c {
-    0% {top: -350px;}
-    100% {top: 300px;}
+    0% {transform: translateY(-350px);}
+    100% {transform: translateY(600px);}
 }
 
 #s1 {
@@ -49,8 +49,8 @@ p{
 }
 
 @keyframes s1 {
-    0% {top: -300px;}
-    100% {top: 300px;}
+    0% {transform: translateY(-350px);}
+    100% {transform: translateY(600px);}
 }
 
 #s2 {
@@ -60,6 +60,6 @@ p{
 }
 
 @keyframes s2 {
-    0% {top: -300px;}
-    100% {top: 300px;}
+    0% {transform: translateY(-350px);}
+    100% {transform: translateY(600px);}
 }

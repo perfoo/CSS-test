@@ -97,19 +97,23 @@ p {
 
 @-webkit-keyframes c {
   0% {
-    top: -350px;
+    -webkit-transform: translateY(-350px);
+            transform: translateY(-350px);
   }
   100% {
-    top: 300px;
+    -webkit-transform: translateY(600px);
+            transform: translateY(600px);
   }
 }
 
 @keyframes c {
   0% {
-    top: -350px;
+    -webkit-transform: translateY(-350px);
+            transform: translateY(-350px);
   }
   100% {
-    top: 300px;
+    -webkit-transform: translateY(600px);
+            transform: translateY(600px);
   }
 }
 
@@ -122,19 +126,23 @@ p {
 
 @-webkit-keyframes s1 {
   0% {
-    top: -300px;
+    -webkit-transform: translateY(-350px);
+            transform: translateY(-350px);
   }
   100% {
-    top: 300px;
+    -webkit-transform: translateY(600px);
+            transform: translateY(600px);
   }
 }
 
 @keyframes s1 {
   0% {
-    top: -300px;
+    -webkit-transform: translateY(-350px);
+            transform: translateY(-350px);
   }
   100% {
-    top: 300px;
+    -webkit-transform: translateY(600px);
+            transform: translateY(600px);
   }
 }
 
@@ -147,19 +155,23 @@ p {
 
 @-webkit-keyframes s2 {
   0% {
-    top: -300px;
+    -webkit-transform: translateY(-350px);
+            transform: translateY(-350px);
   }
   100% {
-    top: 300px;
+    -webkit-transform: translateY(600px);
+            transform: translateY(600px);
   }
 }
 
 @keyframes s2 {
   0% {
-    top: -300px;
+    -webkit-transform: translateY(-350px);
+            transform: translateY(-350px);
   }
   100% {
-    top: 300px;
+    -webkit-transform: translateY(600px);
+            transform: translateY(600px);
   }
 }
 /*# sourceMappingURL=style.css.map */
