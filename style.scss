@@ -22,44 +22,44 @@ p{
 
 .box {
     @include box-border;
-    width: 300px;
+    width: 350px;
     height: 300px;
     display: flex;
     justify-content: center;
     align-content: center;
-    position: relative;
     color: white;
+    position: relative;
 }
 
 #c {
     background: $gray;
     animation: c 1.5s ease-in forwards;
-    top: -350px;
+    transform: translateY(-320px);
 }
 
 @keyframes c {
-    0% {transform: translateY(-350px);}
-    100% {transform: translateY(600px);}
+    0% {transform: translateY(-320px);}
+    100% {transform: translateY(280px);}
 }
 
 #s1 {
     background: $red;
     animation: s1 1.5s ease-in 1.5s forwards;
-    top: -350px;
+    transform: translateY(-320px);
 }
 
 @keyframes s1 {
-    0% {transform: translateY(-350px);}
-    100% {transform: translateY(600px);}
+    0% {transform: translateY(-320px);}
+    100% {transform: translateY(280px);}
 }
 
 #s2 {
     background: $yellow;
     animation: s2 1.5s ease-in 3s forwards;
-    top: -350px;
+    transform: translateY(-320px);
 }
 
 @keyframes s2 {
-    0% {transform: translateY(-350px);}
-    100% {transform: translateY(600px);}
+    0% {transform: translateY(-320px);}
+    100% {transform: translateY(280px);}
 }
