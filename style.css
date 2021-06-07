@@ -1,0 +1,165 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-image: url("./img/blur-clean.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 6rem;
+  margin: auto;
+  font-weight: 900;
+}
+
+.box {
+  border: white solid 2px;
+  width: 300px;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  position: relative;
+  color: white;
+}
+
+#c {
+  background: rgba(51, 51, 51, 0.5);
+  -webkit-animation: c 1.5s ease-in forwards;
+          animation: c 1.5s ease-in forwards;
+  top: -350px;
+}
+
+@-webkit-keyframes c {
+  0% {
+    top: -350px;
+  }
+  100% {
+    top: 300px;
+  }
+}
+
+@keyframes c {
+  0% {
+    top: -350px;
+  }
+  100% {
+    top: 300px;
+  }
+}
+
+#s1 {
+  background: rgba(102, 0, 0, 0.5);
+  -webkit-animation: s1 1.5s ease-in 1.5s forwards;
+          animation: s1 1.5s ease-in 1.5s forwards;
+  top: -350px;
+}
+
+@-webkit-keyframes s1 {
+  0% {
+    top: -300px;
+  }
+  100% {
+    top: 300px;
+  }
+}
+
+@keyframes s1 {
+  0% {
+    top: -300px;
+  }
+  100% {
+    top: 300px;
+  }
+}
+
+#s2 {
+  background: rgba(230, 138, 0, 0.5);
+  -webkit-animation: s2 1.5s ease-in 3s forwards;
+          animation: s2 1.5s ease-in 3s forwards;
+  top: -350px;
+}
+
+@-webkit-keyframes s2 {
+  0% {
+    top: -300px;
+  }
+  100% {
+    top: 300px;
+  }
+}
+
+@keyframes s2 {
+  0% {
+    top: -300px;
+  }
+  100% {
+    top: 300px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
